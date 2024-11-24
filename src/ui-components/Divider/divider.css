@@ -1,0 +1,5 @@
+.divider {
+  margin: auto;
+  background-color: var(--storm-70) !important;
+  color: var(--storm-70) !important;
+}

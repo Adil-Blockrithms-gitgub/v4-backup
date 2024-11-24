@@ -1,0 +1,98 @@
+.pool-main-container {
+  display: flex;
+  width: 100%;
+  background-color: var(--storm-00);
+  height: 100vh;
+  overflow-y: auto;
+  position: relative;
+}
+.drawer-left-container {
+  width: 98px;
+  overflow: hidden;
+  z-index: 99 !important;
+}
+.main-right-container {
+  width: 100%;
+  overflow: auto !important;
+  /* background-color: var(--storm-00); */
+  z-index: 10 !important;
+}
+.navbar-container {
+  width: 100%;
+  position: sticky;
+  top: -0.2px;
+  z-index: 199 !important;
+  overflow: hidden;
+  border-bottom: 1px solid var(--storm-80);
+}
+.cursor {
+  cursor: url("/images/Path.svg"), auto !important;
+}
+.path-main-container {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  gap: 10px;
+  align-items: center;
+}
+.not-show-path {
+  display: none;
+}
+.route-text-main-page {
+  color: var(--storm-30);
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .container-contant {
+    width: 90%;
+  }
+  .drawer-left-container {
+    width: 0px;
+  }
+  .main-right-container {
+    width: 100%;
+    overflow: auto !important;
+  }
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.splash {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: 0.5s;
+  opacity: 1;
+  background-color: black;
+}
+
+.splash img {
+  margin-right: 10px;
+}
+.zoom-in-out {
+  animation: zoomInOut 1s infinite alternate;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

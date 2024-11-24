@@ -1,0 +1,98 @@
+.NavBar-main-container {
+  background-color: var(--storm-00);
+  width: 100%;
+  z-index: 99;
+}
+.NavBar-container {
+  width: 95%;
+  margin: auto;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px;
+  border-color: aliceblue;
+}
+.connected-wallit-1-container {
+  display: flex;
+  gap: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text-container-1 {
+  display: flex;
+  gap: 20px;
+  height: 21px;
+}
+.text-container-2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 21px;
+}
+.side-1-navbar {
+  display: flex;
+  gap: 10px;
+  height: 35px;
+  padding-top: 3px;
+  cursor: url("/images/Path.svg"), auto;
+}
+.Logo-navbar {
+  margin-top: 1px;
+}
+.Title-navbar {
+  margin-top: 6px;
+}
+.Button-container {
+  height: 45px;
+  padding-bottom: 2px;
+}
+
+.divider-NavBar {
+  width: 1px !important;
+  background-color: var(--storm-6);
+}
+.text-1 {
+  color: var(--storm-6);
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  height: 15px;
+}
+.box-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.text-2 {
+  display: block;
+  color: var(--storm-6);
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  height: 15px;
+}
+.menu-container {
+  margin-top: 10px;
+  padding: 0 !important;
+  border-radius: 0% !important;
+}
+.custom-menu {
+  background-color: var(--storm-6) !important;
+}
+.item-menu {
+  width: 144px !important;
+  background-color: var(--storm-6) !important;
+  color: var(--storm-100) !important;
+}
+
+.logo-connectedwallet {
+  cursor: url("/images/Path.svg"), auto;
+}
+@media screen and (max-width: 670px) {
+  .text-container-1 {
+    display: none;
+  }
+  .Title-navbar {
+    display: none;
+  }
+}

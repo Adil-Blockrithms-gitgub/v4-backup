@@ -1,0 +1,27 @@
+:root {
+  --primary-main: #e8ec54;
+  --primary-light: #edf17e;
+  --primary-contrastText: #1a1a1a;
+  --secondary-main: #808080;
+  --error-main: #dd1c77;
+  --warning-main: #faa73f;
+  --info-main: #3e7dbc;
+  --success-main: #47ba76;
+
+  --fire: #f3523f;
+  --ash: #f8f8f8;
+
+  --storm-00: #000000;
+  --storm-100: #0c0c0c;
+  --storm-90: #1a1a1a;
+  --storm-80: #333333;
+  --storm-70: #4c4c4c;
+  --storm-60: #666666;
+  --storm-50: #808080;
+  --storm-30: #b3b3b3;
+  --storm-15: #d9d9d9;
+  --storm-10: #f5f6f3;
+  --storm-6: #f8f8f8;
+  --storm-0: #ffffff;
+  --main-background: #404040;
+}

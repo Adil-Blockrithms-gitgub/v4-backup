@@ -1,0 +1,16 @@
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  color: white;
+}
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: 1px solid var(--primary-main);
+}
+.custom-placeholder {
+  color: var(--storm-50);
+  padding-bottom: 0px !important;
+}
+.max-end-text-disabled {
+  color: var(--storm-50);
+}
+.max-end-text {
+  color: var(--primary-main);
+}

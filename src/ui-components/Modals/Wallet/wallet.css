@@ -1,0 +1,69 @@
+.modle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.modal-title {
+  display: block;
+  color: var(--storm-6);
+  font-size: 24px !important;
+  font-weight: 700 !important;
+}
+.wallet-1-box {
+  border: 1px solid var(--storm-80);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 14px;
+  margin-top: 45px;
+  cursor: url('/images/Path.svg'), auto;
+}
+.wallet-1-box:hover {
+  background-color: var(--storm-80);
+}
+.wallet-2-box:hover {
+  background-color: var(--storm-80);
+}
+.wallet-2-box {
+  border: 1px solid var(--storm-80);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 14px;
+  margin-top: 20px;
+  cursor: url('/images/Path.svg'), auto;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+.text-wallet {
+  color: var(--storm-10);
+  display: block;
+  padding-top: 0px;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.text-wallet-2 {
+  color: var(--storm-10);
+  display: block;
+  padding-top: 10px;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.button-container {
+  margin-top: 20px;
+}
+.connected-wallet-box {
+  display: flex;
+  gap: 14px;
+}
+.Greendot-image-box {
+  margin-right: 5px;
+  padding-top: 5px;
+}
+.cursor {
+  cursor: url('/images/Path.svg'), auto !important;
+}

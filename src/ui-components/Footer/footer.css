@@ -1,0 +1,126 @@
+.footer-main-container {
+  width: 100%;
+  background-color: var(--storm-90);
+  margin-top: 100px;
+}
+.footer-container {
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Box-1-footer {
+  width: 360px;
+  color: var(--storm-30);
+}
+.Box-2-footer {
+  width: 255px;
+}
+.box-2-title {
+  display: block;
+  color: var(--storm-6);
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.box2-text1 {
+  color: var(--primary-main);
+  padding-top: 22px;
+  font-size: 14px !important;
+  font-weight: 700 !important ;
+}
+.box2-text2 {
+  color: var(--primary-main);
+  padding-top: 10px;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+
+.Box-3-footer {
+  width: 157px;
+  margin-right: 100px;
+}
+.box-3-title {
+  display: block;
+  color: var(--storm-6);
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.footer-discription {
+  display: block;
+  padding-top: 15px;
+  line-height: 24.26px;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+.logo-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.lower-part-container {
+  width: 80%;
+  margin: auto;
+  background-color: var(--storm-90);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.Container-Team-About {
+  display: flex;
+  align-items: center;
+  width: 290px;
+  gap: 20px;
+}
+.Copy-text {
+  display: block;
+  color: var(--storm-30);
+  font-size: 12px !important;
+  font-weight: 300 !important ;
+}
+.text-about-team {
+  display: block;
+  color: var(--storm-30);
+  cursor: url('/images/Path.svg'), auto;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+.pointer {
+  cursor: url('/images/Path.svg'), auto;
+}
+.logo-footer {
+  cursor: url('/images/Path.svg'), auto;
+  width: 32px;
+}
+@media screen and (max-width: 970px) {
+  .Box-3-footer {
+    width: 157px;
+    margin-right: 100px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Box-3-footer {
+    width: 160px;
+    margin-top: 24px;
+    margin-right: 0px !important;
+  }
+  .Box-2-footer {
+    width: 163px;
+    margin-top: 24px !important;
+  }
+  .lower-part-container {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .Container-Team-About {
+    display: flex;
+    text-align: center;
+    width: 100% !important;
+    gap: 20px;
+    justify-content: center;
+  }
+}

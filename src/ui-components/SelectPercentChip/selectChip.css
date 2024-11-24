@@ -1,0 +1,25 @@
+.chip-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--secondary-main);
+  color: var(--secondary-main);
+  padding: 4px 16px;
+  padding-bottom: 0px;
+  border-radius: 4px;
+  width: fit-content;
+  cursor: url('/images/Path.svg'), auto;
+  &:hover {
+    border-color: var(--primary-main);
+  }
+  &.selected {
+    border-color: var(--primary-main);
+    background-color: var(--primary-main);
+    color: var(--primary-contrastText);
+  }
+}
+
+.selectchip-container {
+  display: flex;
+  gap: 10px;
+  height: var(--height-medium);
+}

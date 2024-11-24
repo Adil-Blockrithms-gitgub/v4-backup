@@ -1,0 +1,6 @@
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  color: white;
+}
+.custom-placeholder {
+  color: var(--storm-50);
+}
